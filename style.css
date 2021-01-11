@@ -19,3 +19,62 @@ body{
     margin: 0;
     font-family: 'Signika', sans-serif;
 }
+
+.container{
+    width: 600px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mango{
+    background-image: url('./mango.jpg');
+}
+.neem{
+    background-image: url('./neem.jpg');
+}
+
+.quote{
+    text-align: center;
+    min-height: 40vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: 'Caveat', cursive;
+}
+
+.blue{
+    background-color: var(--color-secondary-200);
+    color:var(--color-secondary-600); 
+}
+
+.green{
+    background-color:var(--color-primary-200);
+    color:var(--color-primary-600); 
+    box-shadow:  15px 15px 30px var(--color-primary-400),
+             -15px -15px 30px var(--color-primary-800);
+}
+
+button{
+    margin-top: 0.5rem;
+    padding: 0.3rem 1rem;
+    background-color: var(--color-primary-400);
+    color: var(--color-primary-800);
+    border: 2px solid var(--color-primary-800);
+    border-radius: 15px;
+}
