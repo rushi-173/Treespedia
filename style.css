@@ -18,8 +18,18 @@
 body{
     margin: 0;
     font-family: 'Signika', sans-serif;
+    background-color: var(--color-secondary-200);
 }
-
+.nav{
+    background-color: var(--color-secondary-600);
+    padding: 0 0 1rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .container{
     width: 600px;
     min-height: 40vh;
