@@ -14,3 +14,8 @@
     --grey-300: #D1D5DB;
     --grey-800: #1F2937; 
 }
+
+body{
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+}
