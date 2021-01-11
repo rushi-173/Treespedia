@@ -48,7 +48,9 @@ body{
 .neem{
     background-image: url('./neem.jpg');
 }
-
+.banyan{
+    background-image: url('./ban.jpeg');
+}
 .quote{
     text-align: center;
     min-height: 40vh;
