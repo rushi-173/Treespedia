@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+:root{
+    --color-primary-800: #064E3B;
+    --color-primary-600:#059669;
+    --color-primary-400:#34D399;
+    --color-primary-200: #A7F3D0;
+    --color-secondary-800: #1E40AF;
+    --color-secondary-600:#2563EB;
+    --color-secondary-400:#60A5FA;
+    --color-secondary-200: #BFDBFE;
+    --grey-300: #D1D5DB;
+    --grey-800: #1F2937; 
+}
