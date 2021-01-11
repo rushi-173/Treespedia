@@ -39,6 +39,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.section h1{
+    font-family: 'Fredoka One', cursive;
+}
 .mango{
     background-image: url('./mango.jpg');
 }
